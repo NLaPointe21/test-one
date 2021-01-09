@@ -1,0 +1,381 @@
+/* ---------------------------------------General------------------------------------ */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+h5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+hr {
+  border: 1px solid #e6e6e6;
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------------------------------Colored Sections-------------------------------- */
+.dark-section {
+  background-color: #185b86;
+  /* background-color:#ffffff; */
+  /* background-color: #f4f4f4; Light Grey */
+  /* opacity: 93%; */
+}
+
+.light-section {
+  /* background-color: #c7eeff; Light Blue */
+  background-color: #4b8ab1; Too Dark
+  /* background-color: #7dd1f0; Brighter Blue */
+  /* background-color: #f4f4f4; Light Grey */
+  /* background-color:#ffffff; */
+  /* background-color: #e6e6e6; Darker Light Grey */
+  /* background-color: #bbe7f5; Other Light Blue Fav */
+ /* opacity: 75%; */
+}
+
+.dark-section,
+.light-section {
+  padding: 3% 3% 3%;
+}
+
+/*----------------------------------- Navigation Bar---------------------------------- */
+.navigation {
+  background-color: #185b86;
+}
+
+.navbar-brand {
+  font-family: "Crimson Pro", serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 0 12px 5px;
+}
+
+.large-p {
+  font-size: 3.4rem;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e6e6e6;
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: all 200ms ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* ----------------------------------------About------------------------------------- */
+.about-img-div {  
+  margin: auto 0;
+  text-align: center;
+}
+
+.about-img {
+  border: solid 2px black;
+  border-radius: 100%;
+  box-shadow: 1px 1px 12px rgb(40, 40, 40);
+  margin-left: 5%;
+  position: relative;
+  width: 275px;
+}
+
+.about-text {
+  margin: auto 0;
+  text-align: center;
+}
+
+.about-text p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* -------------------------------------Services------------------------------------- */
+#services {
+  position: relative;
+  /* text-align: right; */
+}
+.service-text{
+  text-align: left;
+  margin: auto 0;
+}
+
+.service-text h3{
+  font-size:1.5rem;
+  margin-bottom:0;
+}
+.service-img {
+  display: block;
+  border-radius: 100%;
+  box-shadow: 1px 1px 12px rgb(40, 40, 40);
+  margin: 10px auto;
+  padding: 0;
+  width: 125px;
+}
+
+.service {
+  padding: 50px 35px;
+  /* text-align: right; */
+}
+
+.service ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------------------------Reviews-------------------------------------- */
+#reviews {
+  padding: 3% 5%;
+  text-align: center;
+}
+
+.review-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding: 0 12%;
+}
+
+.review-img {
+  border: solid 1px black;
+  border-radius: 100%;
+  margin: 30px;
+  width: 175px;
+}
+
+a .carousel-control-prev {
+  font-size: 3rem;
+}
+
+/* -------------------------------------Courses------------------------------------- */
+#courses {
+  position: relative;
+  text-align: left;
+}
+
+.course-title {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.course {
+  padding: 30px 35px;
+}
+
+.course ul {
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* --------------------------------------Costs-------------------------------------- */
+#costs {
+  text-align: center;
+}
+
+#costs h1 {
+  font-size: 2.5rem;
+}
+
+/* -------------------------------------Contact-------------------------------------- */
+#contact{padding: 3% 6% 3%;}
+
+.contact-img-div {
+  text-align: right;
+  margin: auto 0;
+}
+
+.contact-img {
+  border: solid 2px black;
+  border-radius: 100%;
+    box-shadow: 1px 1px 12px rgb(40, 40, 40);
+
+  margin-bottom: 15px;
+  position: relative;
+  width: 275px;
+}
+
+.contact-text {
+  font-weight: 400;
+  padding: 0 120px 0 30px;
+  margin: auto 0;
+}
+
+.fas {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.contact-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+/* -------------------------------------Footer-------------------------------------- */
+.footer {
+  color: #000000;
+  padding: 5px;
+  text-align: right;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* ------------------------------------M Query 750max-------------------------------------- */
+@media (max-width: 715px) {
+  h5 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding: 0 0 10px 5px;
+    font-size: 1.5rem;
+  }
+
+  .large-p {
+  font-size: 2.7rem;
+}
+
+  .dark-section,
+  .light-section {
+    padding: 5%;
+  }
+
+  /* ---------------------------------------About---------------------------------------- */
+   .about-img {
+    position: static;
+    width: 200px;
+    margin: 0;
+  }
+
+  .service-text{
+  text-align: center;
+}
+  /* -------------------------------------Reviews---------------------------------------- */
+  #reviews {
+    padding: 50px 5%;
+  }
+
+  .carousel-control-prev {
+    padding-right: 50px;
+  }
+
+  .carousel-control-next {
+    padding-left: 50px;
+  }
+
+  .review-img {
+    width: 100px;
+  }
+
+  .review-text {
+    font-size: 1.2rem;
+  }
+
+  /* ----------------------------------------Courses------------------------------------- */
+  #courses {
+    position: relative;
+    text-align: center;
+  }
+
+  /* ---------------------------------------Contact--------------------------------------- */
+  #contact {
+    text-align: center;
+  }
+
+  .contact-img-div {
+   text-align: center;
+  }
+
+  .contact-img {
+    position: static;
+    transform: rotate(0);
+    width: 175px;
+  } 
+
+  .contact-text {
+    padding: 0;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+    padding: 0;
+  }
+}
+
+/* ------------------------------------M Query 1350max-------------------------------------- */
+@media (max-width: 1350px) {
+  .dark-section,
+  .light-section {
+    padding: 3%;
+  }
+
+  
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: .85rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    font-size: .9rem;
+  }
+
+  .nav-item {
+    padding: 0 2px;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .large-p {
+    font-size: 2.6rem;
+  }
+
+/* ---------------------------------------Services------------------------------------------ */
+  .service{
+    padding: 0 3%;
+    margin:auto 0;
+  }
+  .service-text{margin-bottom: 20px;}
+/* ----------------------------------------Courses------------------------------------------ */
+  .course {
+    padding: 30px 10px;
+  }
+
+/* ----------------------------------------Reviews------------------------------------------ */
+  #reviews{
+    padding:25px 0;
+  }
+}
