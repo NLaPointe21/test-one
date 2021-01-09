@@ -253,7 +253,7 @@ a .carousel-control-prev {
 }
 
 /* ------------------------------------M Query 750max-------------------------------------- */
-@media (max-width: 715px) {
+@media (max-width: 750px) {
   h5 {
     font-size: 0.8rem;
     text-align: center;
