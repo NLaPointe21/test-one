@@ -153,14 +153,19 @@ hr {
 
 /* -------------------------------------Reviews-------------------------------------- */
 #reviews {
-  padding: 3% 5%;
+  padding: auto 5%;
   text-align: center;
 }
 
+
 .review-text {
   font-size: 1.8rem;
-  line-height: 1.5;
+  line-height: 1.3;
   padding: 0 12%;
+}
+
+.long-review{
+  font-size:1.3rem;
 }
 
 .review-img {
@@ -253,7 +258,7 @@ a .carousel-control-prev {
 }
 
 /* ------------------------------------M Query 750max-------------------------------------- */
-@media (max-width: 750px) {
+@media (max-width: 715px) {
   h5 {
     font-size: 0.8rem;
     text-align: center;
@@ -286,7 +291,7 @@ a .carousel-control-prev {
   /* -------------------------------------Reviews---------------------------------------- */
   #reviews {
     padding: 50px 5%;
-  }
+ }
 
   .carousel-control-prev {
     padding-right: 50px;
@@ -303,6 +308,7 @@ a .carousel-control-prev {
   .review-text {
     font-size: 1.2rem;
   }
+  .long-review{font-size: 1rem;}
 
   /* ----------------------------------------Courses------------------------------------- */
   #courses {
