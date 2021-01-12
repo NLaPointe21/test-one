@@ -1,8 +1,8 @@
 /* ---------------------------------------General------------------------------------ */
 body {
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #ffffff;
 }
 
 h5 {
@@ -156,6 +156,7 @@ hr {
   padding: 0;
 }
 
+.row{margin-bottom: 30px;}
 /* -------------------------------------Reviews-------------------------------------- */
 #reviews {
   padding: auto 5%;
