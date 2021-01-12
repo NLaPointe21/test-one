@@ -1,6 +1,7 @@
 /* ---------------------------------------General------------------------------------ */
 body {
   color: #ffffff;
+    background-color: #185b86;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
@@ -37,20 +38,10 @@ hr {
 /* ----------------------------------Colored Sections-------------------------------- */
 .dark-section {
   background-color: #185b86;
-  /* background-color:#ffffff; */
-  /* background-color: #f4f4f4; Light Grey */
-  /* opacity: 93%; */
 }
 
 .light-section {
-  /* background-color: #c7eeff; Light Blue */
   background-color: #4b8ab1; Too Dark
-  /* background-color: #7dd1f0; Brighter Blue */
-  /* background-color: #f4f4f4; Light Grey */
-  /* background-color:#ffffff; */
-  /* background-color: #e6e6e6; Darker Light Grey */
-  /* background-color: #bbe7f5; Other Light Blue Fav */
- /* opacity: 75%; */
 }
 
 .dark-section,
