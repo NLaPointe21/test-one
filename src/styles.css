@@ -171,6 +171,7 @@ hr {
   padding: 0 12%;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  padding: auto 0;
 }
 .short-review{
   padding-top: 100px;
@@ -299,6 +300,7 @@ hr {
     margin: 0;
   }
 
+  .about-img-div{padding: 5px 0 20px;}
 
 .service-img-div{
   padding: 0 0 40px 0;
@@ -306,8 +308,8 @@ hr {
 }
   /* -------------------------------------Reviews---------------------------------------- */
   #reviews {
-    padding: 50px 5%;
-    height:750px;
+    padding: auto 5%;
+    height:auto;
  }
 
   .carousel-control-prev {
@@ -321,15 +323,19 @@ hr {
   .review-img {
     width: 100px;
   }
-
+.short-review{
+  padding-top: 0;
+}
   .review-text {
     font-size: 1.2rem;
   }
   .long-review{font-size: 1rem;}
 
   .carousel-control-next, .carousel-control-prev{
-  height: 660px;
+
+  height: 200px;
 }
+
   /* ----------------------------------------Courses------------------------------------- */
   #courses {
     position: relative;
