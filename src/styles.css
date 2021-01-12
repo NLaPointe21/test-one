@@ -1,9 +1,8 @@
 /* ---------------------------------------General------------------------------------ */
 body {
- font-family: "Montserrat", sans-serif;
-  font-weight: 400;
   color: #ffffff;
-
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 h5 {
@@ -41,7 +40,7 @@ hr {
 }
 
 .light-section {
-  background-color: #4b8ab1; Too Dark
+  background-color: #4b8ab1;
 }
 
 .dark-section,
@@ -52,21 +51,22 @@ hr {
 /*----------------------------------- Navigation Bar---------------------------------- */
 .navigation {
   background-color: #185b86;
-}
-
-/* .navbar{position:fixed; */
-/* } */
-
-.navbar-brand {
-  font-family: "Crimson Pro", serif;
-  font-size: 2.2rem;
-  font-weight: 400;
-  margin: 0;
-  padding: 0 0 12px 5px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 .large-p {
-  font-size: 3.4rem;
+  font-size: 3.2rem;
+}
+
+.navbar-brand {
+  font-family: "Crimson Pro", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 0 12px 5px;
 }
 
 .nav-item {
@@ -75,19 +75,19 @@ hr {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #e6e6e6;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
   transition: all 200ms ease-in-out;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
 /* ----------------------------------------About------------------------------------- */
-.about-img-div {  
+.about-img-div {
   margin: auto 0;
   text-align: center;
 }
@@ -116,17 +116,25 @@ hr {
   position: relative;
 }
 
-.service-text{
+.service-row {
+  margin-bottom: 30px;
+}
+
+.service {
+  padding: 50px 35px;
+}
+
+.service-text h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.service-text {
   text-align: center;
   margin: auto 0;
 }
 
-.service-text h3{
-  font-size:1.5rem;
-  margin:0;
-}
-
-.service-img-div{
+.service-img-div {
   margin: auto;
 }
 
@@ -140,52 +148,13 @@ hr {
   width: 130px;
 }
 
-.service {
-  padding: 50px 35px;
-}
-
-.service ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.service-row{margin-bottom: 30px;}
-/* -------------------------------------Reviews-------------------------------------- */
-#reviews {
-  padding: auto 5%;
+/* --------------------------------------Costs-------------------------------------- */
+#costs {
   text-align: center;
-  height: 460px;
 }
 
-
-.review-text {
-  font-size: 1.1rem;
-  line-height: 1.3;
-  padding: 0 12%;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  padding: auto 0;
-}
-.short-review{
-  padding-top: 100px;
-}
-
-.review-img {
-  border: solid 1px #ffffff;
-  border-radius: 100%;
-  margin: 30px;
-  width: 150px;
-}
-
-.carousel-control-next, .carousel-control-prev{
-
-  height: 360px;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  width:30px;
-  height: 50px;
+#costs h1 {
+  font-size: 2.5rem;
 }
 
 /* -------------------------------------Courses------------------------------------- */
@@ -194,13 +163,13 @@ hr {
   text-align: left;
 }
 
+.course {
+  padding: 30px 35px;
+}
+
 .course-title {
   font-size: 2.4rem;
   text-align: left;
-}
-
-.course {
-  padding: 30px 35px;
 }
 
 .course ul {
@@ -211,17 +180,47 @@ hr {
   text-align: left;
 }
 
-/* --------------------------------------Costs-------------------------------------- */
-#costs {
+/* -------------------------------------Reviews-------------------------------------- */
+#reviews {
+  height: 460px;
+  padding: auto 5%;
   text-align: center;
 }
 
-#costs h1 {
-  font-size: 2.5rem;
+.review-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  padding: 0 12%;
+}
+
+.review-img {
+  border: solid 1px #ffffff;
+  border-radius: 100%;
+  margin: 30px;
+  width: 150px;
+}
+
+.short-review {
+  padding-top: 100px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  height: 360px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 30px;
+  height: 50px;
 }
 
 /* -------------------------------------Contact-------------------------------------- */
-#contact{padding: 3% 6% 3%;}
+#contact {
+  padding: 3% 6% 3%;
+}
 
 .contact-img-div {
   text-align: right;
@@ -231,8 +230,7 @@ hr {
 .contact-img {
   border: solid 2px #ffffff;
   border-radius: 100%;
-    box-shadow: 1px 1px 12px  #6e6e6e;
-
+  box-shadow: 1px 1px 12px #6e6e6e;
   margin-bottom: 15px;
   position: relative;
   width: 275px;
@@ -279,8 +277,8 @@ hr {
   }
 
   .large-p {
-  font-size: 2.7rem;
-}
+    font-size: 2.7rem;
+  }
 
   .dark-section,
   .light-section {
@@ -288,48 +286,61 @@ hr {
   }
 
   /* ---------------------------------------About---------------------------------------- */
-   .about-img {
+  .about-img {
     position: static;
     width: 200px;
     margin: 0;
   }
 
-  .about-img-div{padding: 5px 0 20px;}
+  .about-img-div {
+    padding: 5px 0 20px;
+  }
 
-.service-img-div{
-  padding: 0 0 40px 0;
-
-}
+  /* ------------------------------------Services---------------------------------------- */
+  .service-img-div {
+    padding: 0 0 40px 0;
+  }
 
   /* -------------------------------------Reviews---------------------------------------- */
   #reviews {
     padding: auto 5%;
-    height:auto;
- }
-
-  .carousel-control-prev {
-    padding-right: 50px;
+    height: auto;
   }
 
-  .carousel-control-next {
-    padding-left: 50px;
+  .review-text {
+    font-size: 1.2rem;
   }
 
   .review-img {
     width: 100px;
   }
-.short-review{
-  padding-top: 0;
-}
-  .review-text {
-    font-size: 1.2rem;
+
+  .short-review {
+    padding-top: 0;
   }
-  .long-review{font-size: 1rem;}
 
-  .carousel-control-next, .carousel-control-prev{
+  .long-review {
+    font-size: 1rem;
+  }
 
-  height: auto;
-}
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: auto;
+  }
+
+  .carousel-control-prev {
+    padding-right: 30px;
+  }
+
+  .carousel-control-next {
+    padding-left: 30px;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 20px;
+    height: 30px;
+  }
 
   /* ----------------------------------------Courses------------------------------------- */
   #courses {
@@ -343,14 +354,13 @@ hr {
   }
 
   .contact-img-div {
-   text-align: center;
+    text-align: center;
   }
 
   .contact-img {
     position: static;
-    transform: rotate(0);
     width: 175px;
-  } 
+  }
 
   .contact-text {
     padding: 0;
@@ -369,19 +379,6 @@ hr {
     padding: 3%;
   }
 
-  
-  .navbar-dark .navbar-nav .nav-link {
-    font-size: .85rem;
-  }
-
-  .navbar-dark .navbar-nav .nav-link:hover {
-    font-size: .9rem;
-  }
-
-  .nav-item {
-    padding: 0 2px;
-  }
-
   .navbar-brand {
     font-size: 1.4rem;
   }
@@ -390,21 +387,34 @@ hr {
     font-size: 2.6rem;
   }
 
-/* ---------------------------------------Services------------------------------------------ */
-  .service{
-    padding: 0 3%;
-    margin:0;
-    
+  .nav-item {
+    padding: 0 2px;
   }
-   .service-text{margin-bottom: 20px;}
 
-/* ----------------------------------------Courses------------------------------------------ */
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 0.85rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    font-size: 0.9rem;
+  }
+
+  /* ---------------------------------------Services------------------------------------------ */
+  .service {
+    padding: 0 3%;
+    margin: 0;
+  }
+  .service-text {
+    margin-bottom: 20px;
+  }
+
+  /* ----------------------------------------Courses------------------------------------------ */
   .course {
     padding: 30px 10px;
   }
 
-/* ----------------------------------------Reviews------------------------------------------ */
-  #reviews{
-    padding:25px 0;
+  /* ----------------------------------------Reviews------------------------------------------ */
+  #reviews {
+    padding: 25px 0;
   }
 }
