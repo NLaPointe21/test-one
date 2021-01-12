@@ -129,16 +129,21 @@ hr {
 
 .service-text h3{
   font-size:1.5rem;
-  margin-bottom:0;
+  margin:0;
 }
+
+.service-img-div{
+  margin: auto;
+}
+
 .service-img {
   display: block;
   border-radius: 100%;
   border: solid 2px #ffffff;
   box-shadow: 1px 1px 12px rgb(40, 40, 40);
-  margin: 10px auto;
+  margin: auto;
   padding: 0;
-  width: 125px;
+  width: 130px;
 }
 
 .service {
@@ -156,6 +161,7 @@ hr {
 #reviews {
   padding: auto 5%;
   text-align: center;
+  height: 450px;
 }
 
 
@@ -163,12 +169,11 @@ hr {
   font-size: 1.1rem;
   line-height: 1.3;
   padding: 0 12%;
-   font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-
-.long-review{
-  font-size:1rem;
+.short-review{
+  padding-top: 100px;
 }
 
 .review-img {
@@ -178,8 +183,14 @@ hr {
   width: 150px;
 }
 
-a .carousel-control-prev {
-  font-size: 3rem;
+.carousel-control-next, .carousel-control-prev{
+
+  height: 360px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width:30px;
+  height: 50px;
 }
 
 /* -------------------------------------Courses------------------------------------- */
@@ -288,12 +299,15 @@ a .carousel-control-prev {
     margin: 0;
   }
 
-  .service-text{
-  text-align: center;
+
+.service-img-div{
+  padding: 0 0 40px 0;
+
 }
   /* -------------------------------------Reviews---------------------------------------- */
   #reviews {
     padding: 50px 5%;
+    height:750px;
  }
 
   .carousel-control-prev {
@@ -313,6 +327,9 @@ a .carousel-control-prev {
   }
   .long-review{font-size: 1rem;}
 
+  .carousel-control-next, .carousel-control-prev{
+  height: 660px;
+}
   /* ----------------------------------------Courses------------------------------------- */
   #courses {
     position: relative;
