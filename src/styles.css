@@ -1,9 +1,9 @@
 /* ---------------------------------------General------------------------------------ */
 body {
-  color: #ffffff;
-    background-color: #185b86;
-  font-family: "Montserrat", sans-serif;
+ font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  color: #ffffff;
+
 }
 
 h5 {
@@ -53,6 +53,9 @@ hr {
 .navigation {
   background-color: #185b86;
 }
+
+/* .navbar{position:fixed; */
+/* } */
 
 .navbar-brand {
   font-family: "Crimson Pro", serif;
@@ -147,7 +150,7 @@ hr {
   padding: 0;
 }
 
-.row{margin-bottom: 30px;}
+.service-row{margin-bottom: 30px;}
 /* -------------------------------------Reviews-------------------------------------- */
 #reviews {
   padding: auto 5%;
