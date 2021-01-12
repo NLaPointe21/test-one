@@ -190,7 +190,7 @@ a .carousel-control-prev {
 
 .course-title {
   font-size: 2.4rem;
-  text-align: center;
+  text-align: left;
 }
 
 .course {
@@ -202,7 +202,7 @@ a .carousel-control-prev {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 /* --------------------------------------Costs-------------------------------------- */
